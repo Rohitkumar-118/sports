@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import axios from 'axios';
+axios.defaults.baseURL = 'https://sports-3duu.onrender.com';
 
 const AuthContext = createContext();
 
